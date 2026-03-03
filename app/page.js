@@ -77,7 +77,7 @@ export default function Portfolio() {
             </a>
           </motion.div>
         </motion.div>
-        <motion.div variants={fadeInUP} className="absolute top-40 right-30">
+        <motion.div variants={fadeInUP} className="hidden md:block absolute top-40 right-30">
             <Image src="/image.png" alt="Profile" width={400} height={200} className="rounded-lg border border-2 border-blue-600 hover:scale-105 transition-all duration-300" />
           </motion.div>
       </section>
