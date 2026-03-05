@@ -83,7 +83,7 @@ export default function Portfolio() {
       </section>
 
       {/* Core Competencies */}
-      <section id="Core Competencies" className="py-24 bg-slate-900/50 border-y border-slate-800">
+      <section id="skills" className="py-24 bg-slate-900/50 border-y border-slate-800">
         <div className="max-w-6xl mx-auto px-6">
           <motion.h2
             initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeInUP}
