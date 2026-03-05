@@ -1,19 +1,19 @@
 "use client";
 
 import { motion } from 'framer-motion';
-import { 
-  BarChart3, 
-  Database, 
-  Users, 
+import {
+  BarChart3,
+  Database,
+  Users,
   Settings,
   Target,
   Workflow,
   AlertTriangle,
   FileSearch,
-  ArrowRight, 
-  Mail, 
-  Linkedin, 
-  FileText 
+  ArrowRight,
+  Mail,
+  Linkedin,
+  FileText
 } from 'lucide-react';
 import Image from 'next/image';
 
@@ -35,7 +35,7 @@ export default function Portfolio() {
   return (
     <main className="min-h-screen overflow-hidden">
       {/* Navigation */}
-      <motion.nav 
+      <motion.nav
         initial={{ y: -100 }}
         animate={{ y: 0 }}
         transition={{ duration: 0.5, ease: "easeOut" }}
@@ -53,17 +53,17 @@ export default function Portfolio() {
 
       {/* Hero Section */}
       <section className="pt-32 pb-20 px-6 max-w-6xl mx-auto flex flex-col justify-center min-h-[80vh]">
-        <motion.div 
+        <motion.div
           initial="hidden"
           animate="visible"
           variants={staggerContainer}
           className="max-w-3xl"
         >
           <motion.p variants={fadeInUP} className="text-blue-500 font-semibold tracking-wide uppercase mb-4">
-          Business Analyst | Project Management 
+            Business Analyst | Project Management
           </motion.p>
-          <motion.h1 variants={fadeInUP} className="text-5xl md:text-7xl font-bold leading-tight mb-6 text-white">
-            Bringing clarity through <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-emerald-400">Data</span> and <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-emerald-400">Collaboration</span>
+          <motion.h1 variants={fadeInUP} className="text-5xl md:text-7xl font-bold leading-tight mb-6 text-sky-400 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-emerald-400">
+            Bringing clarity through Data and Collaboration
           </motion.h1>
           <motion.p variants={fadeInUP} className="text-xl text-slate-400 mb-10 leading-relaxed max-w-2xl">
             I translate complex business requirements into actionable technical solutions. Specializing in process optimization, data visualization, and cross-functional stakeholder management.
@@ -78,67 +78,67 @@ export default function Portfolio() {
           </motion.div>
         </motion.div>
         <motion.div variants={fadeInUP} className="hidden md:block absolute top-40 right-30">
-            <Image src="/image.png" alt="Profile" width={400} height={200} className="rounded-lg border border-2 border-blue-600 hover:scale-105 transition-all duration-300" />
-          </motion.div>
+          <Image src="/image.png" alt="Profile" width={400} height={200} className="rounded-lg border border-2 border-blue-600 hover:scale-105 transition-all duration-300" />
+        </motion.div>
       </section>
 
       {/* Core Competencies */}
       <section id="Core Competencies" className="py-24 bg-slate-900/50 border-y border-slate-800">
         <div className="max-w-6xl mx-auto px-6">
-          <motion.h2 
+          <motion.h2
             initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeInUP}
             className="text-3xl font-bold mb-12 text-white"
           >
             Core Competencies
           </motion.h2>
-          
-          <motion.div 
+
+          <motion.div
             initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={staggerContainer}
             className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"
           >
-            <SkillCard 
+            <SkillCard
               icon={<Database className="text-blue-400" size={32} />}
               title="Data Analysis"
               desc="SQL, Python, Excel. Extracting actionable insights from complex datasets."
               variants={fadeInUP}
             />
-            <SkillCard 
+            <SkillCard
               icon={<BarChart3 className="text-emerald-400" size={32} />}
               title="Data Visualization"
               desc="Tableau, PowerBI. Crafting intuitive dashboards for executive decision-making."
               variants={fadeInUP}
             />
-            <SkillCard 
+            <SkillCard
               icon={<Settings className="text-purple-400" size={32} />}
               title="Process Optimization"
               desc="BPMN, Lean Six Sigma. Identifying bottlenecks and streamlining workflows."
               variants={fadeInUP}
             />
-            <SkillCard 
+            <SkillCard
               icon={<Users className="text-amber-400" size={32} />}
               title="Requirements Gathering"
               desc="Agile, Scrum, Jira. Aligning stakeholder vision with engineering execution."
               variants={fadeInUP}
             />
-            <SkillCard 
+            <SkillCard
               icon={<Target className="text-indigo-600" size={32} />}
               title="Product Strategy"
               desc="Defining product goals, roadmaps, and data-backed feature prioritization."
               variants={fadeInUP}
             />
-            <SkillCard 
+            <SkillCard
               icon={<Workflow className="text-teal-600" size={32} />}
               title="Business Process Mapping"
               desc="Documenting workflows using BRD, FRD, and user journey mapping."
               variants={fadeInUP}
             />
-            <SkillCard 
+            <SkillCard
               icon={<AlertTriangle className="text-red-500" size={32} />}
               title="Risk & Impact Analysis"
               desc="Evaluating project risks and assessing business impact for better decisions."
               variants={fadeInUP}
             />
-            <SkillCard 
+            <SkillCard
               icon={<FileSearch className="text-emerald-600" size={32} />}
               title="Advanced SQL Analysis"
               desc="Writing complex queries to extract, join, and analyze product usage data."
@@ -154,10 +154,10 @@ export default function Portfolio() {
           <h2 className="text-3xl font-bold mb-4 text-white">Work Experiences</h2>
           <p className="text-slate-400 mb-12">Delivering measurable ROI through strategic analysis.</p>
         </motion.div>
-        
+
         <div className="space-y-12">
           {/* Project 1 */}
-          <motion.div 
+          <motion.div
             initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeInUP}
             className="bg-slate-900 border border-slate-800 rounded-2xl p-8 hover:border-blue-500/30 transition-colors"
           >
@@ -178,7 +178,7 @@ export default function Portfolio() {
           </motion.div>
 
           {/* Project 2 */}
-          <motion.div 
+          <motion.div
             initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeInUP}
             className="bg-slate-900 border border-slate-800 rounded-2xl p-8 hover:border-blue-500/30 transition-colors"
           >
@@ -198,7 +198,7 @@ export default function Portfolio() {
             </div>
           </motion.div>
 
-          <motion.div 
+          <motion.div
             initial="hidden" whileInView="visible" viewport={{ once: true, margin: "-100px" }} variants={fadeInUP}
             className="bg-slate-900 border border-slate-800 rounded-2xl p-8 hover:border-blue-500/30 transition-colors"
           >
@@ -222,7 +222,7 @@ export default function Portfolio() {
 
       {/* Footer / Contact */}
       <section id="contact" className="py-20 border-t border-slate-800 bg-slate-950 text-center">
-        <motion.div 
+        <motion.div
           initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeInUP}
           className="max-w-4xl mx-auto px-6"
         >
@@ -250,7 +250,7 @@ export default function Portfolio() {
 // Reusable Animated Skill Card Component
 function SkillCard({ icon, title, desc, variants }) {
   return (
-    <motion.div 
+    <motion.div
       variants={variants}
       className="p-6 rounded-2xl bg-slate-950 border border-slate-800 hover:border-slate-700 transition-colors group"
     >
