@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from 'framer-motion';
-import { Layers, BarChart3, Workflow, FileSearch, TrendingUp, Compass, Target } from 'lucide-react';
+import { Layers, BarChart3, Workflow, FileSearch, TrendingUp, Compass, Target, Zap, Network } from 'lucide-react';
 import SectionHeader from './SectionHeader';
 
 const CASES = [
@@ -67,6 +67,24 @@ const CASES = [
     approach: 'Conducted competitive benchmarking across 10+ companies using Excel and structured web research frameworks.',
     result: 'Pricing and positioning recommendations were adopted directly into go-to-market strategy.',
     tech: ['Excel', 'Competitive Research'],
+  },
+  {
+    icon: Zap,
+    title: 'Sales Lead Automation',
+    company: 'TransCurators',
+    problem: 'Prospect outreach and follow-up sequencing were manual, leading to inconsistent lead flow for the sales team.',
+    approach: 'Designed and implemented an automated lead system using Apollo.io and HubSpot — automating outreach, follow-up sequencing, and pipeline tracking.',
+    result: 'Enabled consistent lead flow with significantly reduced manual effort and improved sales team efficiency.',
+    tech: ['Apollo.io', 'HubSpot', 'Sales Automation'],
+  },
+  {
+    icon: Network,
+    title: 'Cross-Departmental Tooling',
+    company: 'TransCurators',
+    problem: 'Every department relied on manual reporting with no centralised visibility into work across teams.',
+    approach: 'Built and deployed centralised dashboards and trackers across every department using Google Sheets (Apps Script), Notion, and Python.',
+    result: 'Improved cross-departmental visibility, standardised workflows, and cut dependency on manual reporting org-wide.',
+    tech: ['Apps Script', 'Notion', 'Python'],
   },
 ];
 

@@ -21,6 +21,8 @@ const ROLES = [
       'Ran gap analysis on the international sales funnel using HubSpot CRM data — recommendations directly shaped coaching strategy.',
       'Mentored 2 sales reps to ₹10L+/month each in international revenue through structured target-setting and Apollo.io-tracked incentive alignment.',
       'Closed 10+ recurring operational gaps across content and ops — cutting issue resolution time by ~30% through root-cause analysis documented in Notion.',
+      'Built and deployed internal tools across every department of the organisation (Google Sheets Apps Script, Notion, Python) — centralised dashboards and trackers that improved cross-departmental visibility and cut dependency on manual reporting.',
+      'Designed and implemented a lead automation system for the sales department using Apollo.io and HubSpot — automating prospect outreach, follow-up sequencing, and pipeline tracking for consistent lead flow with far less manual effort.',
     ],
     tech: ['Python', 'Power BI (DAX)', 'Mixpanel', 'Excel (Power Query)', 'HubSpot', 'Apollo.io', 'Notion', 'Apps Script'],
   },

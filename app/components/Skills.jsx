@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from 'framer-motion';
-import { Database, BarChart3, Target, Settings, Workflow, Brain } from 'lucide-react';
+import { Database, BarChart3, Target, Settings, Workflow, Brain, FolderKanban } from 'lucide-react';
 import SectionHeader from './SectionHeader';
 
 const CATEGORIES = [
@@ -28,12 +28,17 @@ const CATEGORIES = [
   {
     icon: Workflow,
     title: 'CRM & Growth',
-    skills: ['HubSpot', 'Apollo.io', 'Salesforce'],
+    skills: ['HubSpot (Pipeline Automation)', 'Apollo.io (Lead Automation)', 'Salesforce'],
   },
   {
     icon: Brain,
     title: 'Machine Learning',
     skills: ['Regression', 'Classification', 'Scikit-learn', 'Model Evaluation'],
+  },
+  {
+    icon: FolderKanban,
+    title: 'Workflow & Org Tools',
+    skills: ['Notion (Wikis, Cross-team Dashboards)', 'Google Sheets (Apps Script)', 'Slack Integrations'],
   },
 ];
 
