@@ -8,14 +8,14 @@ const ITEMS = [
   {
     icon: Award,
     title: 'Delhi Police Hackathon',
-    result: 'Top Ideas',
-    body: 'Presented a solution for detecting social media scams and tracking malware activity, including fake ID networks — selected among the top ideas at the event.',
+    result: 'Top Shortlisted Idea',
+    body: 'Pitched a system to detect social media scams and track malware activity, including fake ID networks.',
   },
   {
     icon: Sun,
     title: 'Smart India Hackathon',
     result: 'National Finalist',
-    body: 'Engineered a non-electrical solar tracking system to improve solar panel energy efficiency — selected as one of the national finalists.',
+    body: 'Built a passive solar tracker that improves panel efficiency without powered components.',
   },
 ];
 

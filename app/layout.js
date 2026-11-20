@@ -15,8 +15,8 @@ export const metadata = {
     default: 'Arryan Tiwari — Execution-Driven Business Analyst',
     template: '%s · Arryan Tiwari',
   },
-  description: 'Arryan Tiwari partners directly with founders to build internal products, automate operations, and turn business chaos into scalable systems — using Python, Power BI, Mixpanel, and SQL.',
-  keywords: ['Arryan Tiwari', 'Business Analyst', 'Founder\'s Office', 'Internal Tools', 'Revenue Operations', 'Power BI', 'Mixpanel', 'Product Analytics'],
+  description: 'Arryan Tiwari is a Business Analyst who works close to founders, finds what\'s breaking and fixes it with data, automation or a better process — using SQL, Power BI, Python and Apps Script.',
+  keywords: ['Arryan Tiwari', 'Business Analyst', 'Founder\'s Office', 'Internal Tools', 'Revenue Operations', 'Power BI', 'SQL', 'Team Leadership', 'Margo Digitech'],
   authors: [{ name: 'Arryan Tiwari' }],
   creator: 'Arryan Tiwari',
   openGraph: {
@@ -39,14 +39,14 @@ const structuredData = {
   '@type': 'Person',
   name: 'Arryan Tiwari',
   jobTitle: 'Business Analyst',
-  worksFor: { '@type': 'Organization', name: 'TransCurators' },
+  worksFor: { '@type': 'Organization', name: 'Margo Digitech' },
   alumniOf: {
     '@type': 'CollegeOrUniversity',
     name: 'Maharaja Surajmal Institute of Technology',
   },
   address: { '@type': 'PostalAddress', addressLocality: 'New Delhi', addressCountry: 'IN' },
   email: 'mailto:arryantiwari08@gmail.com',
-  sameAs: ['https://www.linkedin.com/in/arryan-tiwari/'],
+  sameAs: ['https://www.linkedin.com/in/arryan-tiwari/', 'https://github.com/Arryan08'],
 }
 
 export default function RootLayout({ children }) {

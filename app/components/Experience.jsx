@@ -7,36 +7,37 @@ import SectionHeader from './SectionHeader';
 
 const ROLES = [
   {
-    company: 'TransCurators',
-    role: "Business Analyst — Founder's Office",
+    company: 'Margo Digitech (formerly TransCurators)',
+    role: 'Business Analyst',
     duration: 'Jan 2026 — Present',
     tag: "Founder's Office",
-    metric: '₹10L+/mo per mentee',
-    summary: 'The execution layer between founder vision and ground-level operations across revenue, process, and team-building.',
+    metric: '10K impressions/day · ~30% faster resolution',
+    summary: 'Working directly with the founder across internal tools, reporting, team leadership, the rebrand and a product launch.',
     bullets: [
-      'Ran structural audits across sales, content ops, and reporting (Excel Power Query, Python) — flagging inefficiencies and instituting corrective frameworks that improved accountability and execution speed.',
-      'Built internal tools from scratch — automated trackers, alert systems, workflow monitors (Python, Apps Script, Notion) — surfacing bottlenecks before they became revenue or process leaks.',
-      'Spearheaded an internal product end-to-end in Mixpanel: defined requirements, instrumented event tracking, and analyzed feature adoption and behaviour data to guide tooling decisions.',
-      'Designed Power BI (DAX) KPI dashboards consolidating sales pipeline, productivity, and revenue into a single leadership view.',
-      'Ran gap analysis on the international sales funnel using HubSpot CRM data — recommendations directly shaped coaching strategy.',
-      'Mentored 2 sales reps to ₹10L+/month each in international revenue through structured target-setting and Apollo.io-tracked incentive alignment.',
-      'Closed 10+ recurring operational gaps across content and ops — cutting issue resolution time by ~30% through root-cause analysis documented in Notion.',
-      'Built and deployed internal tools across every department of the organisation (Google Sheets Apps Script, Notion, Python) — centralised dashboards and trackers that improved cross-departmental visibility and cut dependency on manual reporting.',
-      'Designed and implemented a lead automation system for the sales department using Apollo.io and HubSpot — automating prospect outreach, follow-up sequencing, and pipeline tracking for consistent lead flow with far less manual effort.',
+      'Built internal tools (SQL) for the business and sales teams that give them real-time visibility into operations and KPIs, replacing manual follow-ups and making cross-team workflows run smoother.',
+      'Heading the initiative to turn our in-house HRMS into a production-ready product for the market, owning it from go-to-market planning through to launch.',
+      'Led the transition to the new Margo Digitech brand and built its organic presence from scratch; it now earns 10K impressions per day and brings inbound leads and enquiries to the sales team.',
+      'Worked directly with the founder and department heads to find operational gaps, aligned stakeholders across teams on solutions, and implemented the fixes hands-on through automation scripts and workflows.',
+      'Built Power BI (DAX) dashboards combining pipeline, revenue and team output, replacing weekly manual updates to the founder.',
+      'Built department-level trackers and alert systems (Apps Script) so teams could self-serve their numbers.',
+      'Ran audits across sales, content and ops using Excel (Power Query), cutting resolution time by ~30%.',
+      'Managed an IT team delivering concurrent web, app and automation projects, handling sprint planning, client requirements and delivery timelines.',
+      'Managed two sales reps through weekly reviews and targets; both went on to close significant monthly international revenue.',
+      'Analysed the international sales pipeline in HubSpot to pinpoint where and why deals stalled, giving leadership numbers instead of guesses.',
     ],
-    tech: ['Python', 'Power BI (DAX)', 'Mixpanel', 'Excel (Power Query)', 'HubSpot', 'Apollo.io', 'Notion', 'Apps Script'],
+    tech: ['SQL', 'Power BI (DAX)', 'Excel (Power Query)', 'Apps Script', 'HubSpot', 'Sprint Planning', 'Go-to-Market'],
   },
   {
-    company: 'Ellipsol System Pvt Ltd',
+    company: 'Ellipsol System Pvt. Ltd.',
     role: 'Business Analyst Intern',
     duration: 'Nov 2025 — Jan 2026',
     tag: 'Market Research',
-    metric: '>25% margin potential',
-    summary: 'Market feasibility and competitive research behind a white-label product launch.',
+    metric: '25%+ margin potential',
+    summary: 'Market feasibility and competitive research behind the GTM strategy for a new product line.',
     bullets: [
-      'Benchmarked 10+ companies on pricing and positioning — recommendations adopted directly into go-to-market strategy.',
-      'Led feasibility research across 15+ product categories and 20+ suppliers, shortlisting 5 high-margin SKUs presented to senior leadership.',
-      'Analyzed demand, seasonality, and growth signals via Excel Pivot Tables, surfacing opportunities with >25% projected margin potential.',
+      'Benchmarked 10+ competitors on pricing and positioning to shape the GTM strategy for a new product line.',
+      'Ran white label feasibility across 15+ categories and 20+ suppliers, shortlisted 5 SKUs, and presented the findings to leadership.',
+      'Used Excel pivot analysis on demand and seasonality to isolate opportunities with 25%+ margin potential.',
     ],
     tech: ['Excel (Pivot Tables)', 'Market Research', 'Competitive Benchmarking'],
   },
@@ -48,11 +49,11 @@ const ROLES = [
     metric: '15% reliability gain',
     summary: 'Bridging industrial automation engineering and business requirements.',
     bullets: [
-      'Translated 20+ client requirements across PLC and HMI systems into structured technical specifications.',
-      'Identified 5 critical process bottlenecks through data analysis and stakeholder interviews.',
-      'Contributed to a 15% improvement in system reliability and reduced rework cycles that improved project profitability.',
+      'Converted 20+ PLC/HMI client requirements into structured, business-ready specs, contributing to a 15% improvement in system reliability.',
+      'Traced 5 recurring project bottlenecks to root cause through interviews and data review, and co-led the fixes.',
+      'Identified rework and resource-use improvements on live projects that improved profitability.',
     ],
-    tech: ['PLC / HMI Systems', 'Excel', 'Technical Specification'],
+    tech: ['PLC / HMI Systems', 'Requirements Gathering', 'Root Cause Analysis'],
   },
 ];
 
@@ -130,7 +131,7 @@ export default function Experience() {
       <SectionHeader
         eyebrow="Experience"
         title="Three roles, one throughline: ownership"
-        description="From translating engineering requirements to running a founder's office — each role compounded into the next."
+        description="From translating engineering requirements to working beside a founder and leading teams — each role compounded into the next."
       />
       <div className="space-y-8">
         {ROLES.map((item, i) => (

@@ -17,7 +17,7 @@ const STORY = [
   {
     tag: 'Founder’s Office',
     title: 'Owning outcomes, not tasks',
-    body: "At TransCurators, I stepped into the founder's office — the execution layer between vision and ground reality. Auditing operations, shipping internal tools, managing sales performance. Ownership here means treating someone else's problem as fully your own until it's solved.",
+    body: "At Margo Digitech (formerly TransCurators), I work directly with the founder. I build the tools and dashboards the business runs on, manage an IT team and two sales reps, led the rebrand, and now own taking our in-house HRMS to market. Ownership here means treating someone else's problem as fully your own until it's solved.",
   },
 ];
 

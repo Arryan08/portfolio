@@ -8,10 +8,10 @@ import TextReveal from './TextReveal';
 import AnimatedCounter from './AnimatedCounter';
 
 const STATS = [
-  { value: '3', label: 'Roles across engineering & business' },
-  { value: '10+', label: 'Recurring ops gaps closed' },
-  { value: '₹10L+/mo', label: 'Revenue scaled by mentees' },
-  { value: '20+', label: 'Client requirements translated' },
+  { value: '10K/day', label: 'Impressions on a brand built from scratch' },
+  { value: '~30%', label: 'Faster issue resolution from audits' },
+  { value: '2', label: 'Teams managed: sales and IT' },
+  { value: '20+', label: 'Client requirements turned into specs' },
 ];
 
 function ParallaxField() {
@@ -94,7 +94,7 @@ export default function Hero() {
           transition={{ duration: 0.7, delay: 2.35, ease: [0.22, 1, 0.36, 1] }}
           className="mt-8 max-w-2xl text-lg md:text-xl text-ink-soft leading-relaxed"
         >
-          Working directly with founders to transform ideas into scalable products, automate operations, build internal tools, and drive business growth through data.
+          I work close to founders, find what&rsquo;s breaking and fix it with data, automation or a better process. Right now that means internal tools, leadership dashboards, an IT team and a product launch at Margo Digitech.
         </motion.p>
 
         <motion.div

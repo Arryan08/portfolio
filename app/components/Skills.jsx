@@ -1,44 +1,39 @@
 "use client";
 
 import { motion } from 'framer-motion';
-import { Database, BarChart3, Target, Settings, Workflow, Brain, FolderKanban } from 'lucide-react';
+import { Database, BarChart3, Settings, Workflow, Brain, Users } from 'lucide-react';
 import SectionHeader from './SectionHeader';
 
 const CATEGORIES = [
   {
     icon: Database,
-    title: 'Programming & Data',
-    skills: ['SQL (MySQL, PostgreSQL, SQLite)', 'Python (Pandas, NumPy)', 'Excel (Power Query, Pivot Tables)'],
+    title: 'Data & Analytics',
+    skills: ['SQL (MySQL, PostgreSQL, SQLite)', 'Python (Pandas, NumPy, Matplotlib, Seaborn)', 'Excel (Pivot Tables, Power Query)'],
   },
   {
     icon: BarChart3,
-    title: 'Visualization',
-    skills: ['Power BI (DAX)', 'Tableau', 'Matplotlib', 'Seaborn'],
-  },
-  {
-    icon: Target,
-    title: 'Product Analytics',
-    skills: ['Mixpanel', 'Event Tracking', 'Funnel Analysis', 'Retention & Feature Adoption'],
+    title: 'BI & Product Analytics',
+    skills: ['Power BI (DAX)', 'Tableau', 'Mixpanel (Event Tracking, Funnels, Retention, Feature Adoption)'],
   },
   {
     icon: Settings,
-    title: 'Automation & Tooling',
-    skills: ['Python Scripting', 'Google Apps Script', 'Notion', 'Workflow Monitoring'],
+    title: 'Automation & Internal Tools',
+    skills: ['Python Scripting', 'Google Sheets (Apps Script)', 'Notion', 'Slack Integrations'],
   },
   {
     icon: Workflow,
     title: 'CRM & Growth',
-    skills: ['HubSpot (Pipeline Automation)', 'Apollo.io (Lead Automation)', 'Salesforce'],
+    skills: ['HubSpot (Pipeline Automation, Workflows)', 'Apollo.io (Prospecting, Outbound Sequencing)', 'Salesforce'],
   },
   {
     icon: Brain,
     title: 'Machine Learning',
-    skills: ['Regression', 'Classification', 'Scikit-learn', 'Model Evaluation'],
+    skills: ['Regression', 'Classification', 'Model Evaluation (Scikit-learn)'],
   },
   {
-    icon: FolderKanban,
-    title: 'Workflow & Org Tools',
-    skills: ['Notion (Wikis, Cross-team Dashboards)', 'Google Sheets (Apps Script)', 'Slack Integrations'],
+    icon: Users,
+    title: 'Core Competencies',
+    skills: ['Team Leadership', 'Project Delivery', 'Stakeholder Management', 'Requirements Gathering', 'KPI Framework Design', 'Process Auditing', 'Root Cause Analysis', 'Data Storytelling'],
   },
 ];
 

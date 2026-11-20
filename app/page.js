@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Experience from './components/Experience';
 import BusinessImpact from './components/BusinessImpact';
+import Projects from './components/Projects';
 import Skills from './components/Skills';
 import FounderOffice from './components/FounderOffice';
 import Achievements from './components/Achievements';
@@ -20,6 +21,7 @@ export default function Portfolio() {
       <About />
       <Experience />
       <BusinessImpact />
+      <Projects />
       <Skills />
       <FounderOffice />
       <Achievements />

@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from 'framer-motion';
-import { Mail, Phone, Linkedin, FileText, ArrowRight } from 'lucide-react';
+import { Mail, Phone, Linkedin, Github, FileText, ArrowRight } from 'lucide-react';
 import MagneticButton from './MagneticButton';
 import TextReveal from './TextReveal';
 
@@ -9,6 +9,7 @@ const CHANNELS = [
   { icon: Mail, label: 'arryantiwari08@gmail.com', href: 'mailto:arryantiwari08@gmail.com' },
   { icon: Phone, label: '+91 96438 19705', href: 'tel:+919643819705' },
   { icon: Linkedin, label: 'linkedin.com/in/arryan-tiwari', href: 'https://www.linkedin.com/in/arryan-tiwari/', external: true },
+  { icon: Github, label: 'github.com/Arryan08', href: 'https://github.com/Arryan08', external: true },
 ];
 
 export default function Contact() {

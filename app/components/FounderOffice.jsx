@@ -4,17 +4,18 @@ import { motion } from 'framer-motion';
 import TextReveal from './TextReveal';
 
 const PRINCIPLES = [
-  { title: 'Ownership', body: 'Treating ambiguous problems as mine to solve end-to-end, without waiting for a directive.' },
-  { title: 'Zero-to-One Execution', body: 'Built an internal product from scratch — requirements to instrumented analytics — with no existing playbook.' },
-  { title: 'Cross-Functional Leadership', body: 'Coordinated sales, content, and ops teams toward one accountability framework.' },
-  { title: 'Root Cause Analysis', body: 'Diagnosed 10+ recurring operational gaps down to their source, not their symptoms.' },
-  { title: 'Revenue Operations', body: 'Mentored a 2-person sales team to ₹10L+/month each through structured targets and incentive tracking.' },
-  { title: 'Business Strategy', body: 'Shaped coaching and go-to-market strategy from CRM and market data, not intuition.' },
-  { title: 'Internal Tool Building', body: 'Shipped trackers, alert systems, and dashboards that teams now run on daily.' },
-  { title: 'Stakeholder Management', body: 'Translated founder vision into ground-level execution for cross-functional teams.' },
-  { title: 'Process Auditing', body: 'Mapped workflows across sales, content ops, and reporting to expose where accountability broke down.' },
-  { title: 'Decision Support', body: 'Turned raw CRM and pipeline data into KPI dashboards leadership actually uses.' },
-  { title: 'Automation', body: 'Replaced manual monitoring with Python- and Apps Script-driven alert systems.' },
+  { title: 'Ownership', body: 'Starting from a vague ask and treating the problem as mine to solve end to end, without waiting for a directive.' },
+  { title: 'Zero-to-One Execution', body: "Built a new brand's organic presence from scratch, and now taking an in-house HRMS from internal tool to market product." },
+  { title: 'Team Leadership', body: 'Managing an IT team across concurrent web, app and automation projects, plus two sales reps through weekly reviews and targets.' },
+  { title: 'Root Cause Analysis', body: 'Audited sales, content and ops down to the source of each issue, cutting resolution time by ~30%.' },
+  { title: 'Revenue Operations', body: 'Found where and why international deals stalled in HubSpot, and coached the reps who went on to close significant monthly revenue.' },
+  { title: 'Go-to-Market', body: 'Shaped GTM from competitor benchmarks and supplier feasibility, and now own one for a product launch.' },
+  { title: 'Internal Tool Building', body: 'Shipped SQL tools, trackers and alert systems that business and sales teams run on daily.' },
+  { title: 'Stakeholder Management', body: 'Work directly with the founder and department heads, aligning teams on a fix before implementing it.' },
+  { title: 'Organic Growth', body: 'A digital marketing background that took a new brand to 10K impressions a day and inbound leads for sales.' },
+  { title: 'Decision Support', body: 'Power BI dashboards that replaced weekly manual updates to the founder with a view leadership checks daily.' },
+  { title: 'Automation', body: 'Replaced manual follow-ups and reporting with Apps Script trackers, alerts and automation scripts.' },
+  { title: 'Requirements to Delivery', body: 'From 20+ PLC/HMI client specs at Siemens to sprint planning for an IT team: turning asks into shipped work.' },
 ];
 
 export default function FounderOffice() {
